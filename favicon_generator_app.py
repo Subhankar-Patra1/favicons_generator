@@ -1,3 +1,14 @@
+import streamlit as st
+
+# Hide Streamlit main menu, footer, and header
+hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 import os
 import io
 import zipfile
