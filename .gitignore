@@ -1,0 +1,3 @@
+# .gitignore
+# Ignore downloaded favicons directory
+/downloaded_favicons/

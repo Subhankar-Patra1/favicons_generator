@@ -1,0 +1,5 @@
+streamlit
+pillow
+requests
+beautifulsoup4
+cairosvg
